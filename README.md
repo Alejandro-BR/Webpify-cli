@@ -13,14 +13,6 @@
 - Utiliza **Node.js** y **Sharp** para la manipulacion de imagenes.
 - Optimizacion de imagenes para mejorar el rendimiento de tus sitios web.
 
-
-## Indice
-
-- [Visualizacion](#Visualizacion)
-- [Tecnologias](#tecnologias)
-- [Instalacion](#instalacion)
-- [Creditos](#creditos)
-
 <br>
 
 ## Visualizacion
