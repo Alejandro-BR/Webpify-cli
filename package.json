@@ -1,5 +1,10 @@
 {
   "type": "module",
+  "name": "webpify",
+  "version": "1.0.0",
+  "scripts": {
+    "webpify": "node app.js"
+  },
   "dependencies": {
     "chalk": "^5.4.1",
     "fs-extra": "^11.3.0",
