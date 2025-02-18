@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from 'chalk';
 import { askForDirectory, confirmExit } from './menu.js';
 import { convertImagesInDirectory } from './convert.js';
@@ -10,7 +12,7 @@ async function main() {
     console.log(chalk.blue.bold("\n✨ Webpify - Conversor de Imágenes a WebP ✨\n"));
 
     const directoryPath = await askForDirectory();
-    console.log(chalk.blue(`📂 Directorio seleccionado: ${directoryPath}\n`));
+    console.log(chalk.blue.bold(`📂 Directorio seleccionado: ${directoryPath}\n`));
 
     await convertImagesInDirectory(directoryPath);
 

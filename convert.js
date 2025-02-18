@@ -31,14 +31,15 @@ export async function convertImagesInDirectory(directoryPath) {
       return;
     }
 
-    console.log(chalk.blue(`🔄 Procesando ${imageFiles.length} imágenes...\n`));
+    const outputDir = path.join(directoryPath, "webp_img");
+    await fs.ensureDir(outputDir);
+
+    console.log(chalk.blue.bold(`🔄 Procesando ${imageFiles.length} imágenes...
+`));
 
     for (const file of imageFiles) {
       const inputPath = path.join(directoryPath, file);
-      const outputPath = path.join(
-        directoryPath,
-        `${path.parse(file).name}.webp`
-      );
+      const outputPath = path.join(outputDir, `${path.parse(file).name}.webp`);
       await convertToWebP(inputPath, outputPath);
     }
 
