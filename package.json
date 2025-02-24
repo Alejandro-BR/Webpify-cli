@@ -1,7 +1,7 @@
 {
   "type": "module",
-"name": "webpify-cli",
-  "version": "1.0.0",
+  "name": "webpify-cli",
+  "version": "1.0.1",
   "description": "Herramienta CLI para convertir imagenes a WebP",
   "bin": {
     "webpify": "./index.js"
@@ -16,7 +16,12 @@
     "inquirer": "^12.4.2",
     "sharp": "^0.33.5"
   },
-  "keywords": ["webp", "convert", "cli", "images"],
+  "keywords": [
+    "webp",
+    "convert",
+    "cli",
+    "images"
+  ],
   "author": "Alejandro-BR",
   "license": "MIT",
   "repository": {
