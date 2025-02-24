@@ -18,5 +18,9 @@
   },
   "keywords": ["webp", "convert", "cli", "images"],
   "author": "Alejandro-BR",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alejandro-BR/Webpify-cli"
+  }
 }
