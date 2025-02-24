@@ -39,6 +39,26 @@
 
 <br>
 
+Para instalar Webpify de manera global en tu sistema, puedes usar el siguiente comando:
+
+```
+npm i -g webpify-cli
+```
+
+Esto instalará Webpify globalmente, lo que te permitirá usarlo desde cualquier directorio en la terminal con solo escribir:
+
+```
+webpify
+```
+
+Si prefieres no instalarlo globalmente, puedes usarlo directamente con npx:
+
+```
+npx webpify-cli
+```
+
+<br>
+
 ## Creditos
 
 <br>
