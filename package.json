@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "webpify",
+"name": "webpify-cli",
   "version": "1.0.0",
   "description": "Herramienta CLI para convertir imagenes a WebP",
   "bin": {
