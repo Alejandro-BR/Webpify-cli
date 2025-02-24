@@ -21,7 +21,7 @@ async function main() {
   } while (!exit);
 
   console.log(chalk.magenta.bold("\n👋 ¡Hasta la próxima! 👋\n"));
-  console.log(chalk.gray("🔗 Alejandro Barrionuevo Rosado - https://github.com/Alejandro-BR/Webpify \n"));
+  console.log(chalk.gray("🔗 Alejandro Barrionuevo Rosado - https://github.com/Alejandro-BR/Webpify-cli \n"));
 }
 
 main();
