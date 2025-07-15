@@ -1,28 +1,36 @@
-# Webpify ✨
+# Webpify - 2.0.0
 
-**Webpify** es una herramienta de terminal escrita en **Node.js** que convierte tus imagenes PNG, JPG, HEIC y HEIF a **WebP**, un formato de imagen optimizado que ofrece compresion sin perdidas, ideal para la web.
+**Webpify** is a terminal tool written in **Node.js** that converts your PNG, JPG, HEIC, and HEIF images to **WebP**, an optimized image format offering lossless compression—ideal for the web.
 
-¡Convierte tus fotos en imagenes mas ligeras y rapidas de cargar!
+Turn your photos into lighter, faster-loading images!
 
-## Características
+> [!IMPORTANT]
+> 🚧 **Webpify is currently under active development.**
+> New features are on the way, and the tool may undergo significant changes in its structure, usage options, and overall behavior.  
+>
 
-- **Conversión rapida y eficiente** de imagenes PNG y JPG a WebP.
-- **Conversión de formatos HEIC y HEIF** a JPG y luego a WebP.
-- **Facil de usar** a traves de la linea de comandos.
-- Utiliza **Node.js** y **Sharp** para la manipulacion de imagenes.
-- Optimizacion de imagenes para mejorar el rendimiento de tus sitios web.
+## Features
 
-<br>
+- **Fast and efficient conversion** of PNG and JPG images to WebP.
+- **Support for HEIC and HEIF formats**, converted first to JPG and then to WebP.
+- **Easy to use** via the command line.
+- Uses **Node.js** and **Sharp** for image processing.
+- Image optimization to improve the performance of your websites.
 
-## Visualización
+## Upcoming Features
 
-<br>
+- **Multi-language support**: Full support for English and Spanish.
+- **Input and output path control**: Define input/output folders directly from the CLI using flags.
+- **Command-line help and version display**: Use `--help` to see available options and `--version` to check the current version of the tool.
+- **Enhanced CLI experience**: Cleaner and more intuitive commands with flags like `--input`, `--output`, `--lang`, etc.
+- **And more features to come...**
+
+## Preview
 
 ![Home](/img/img.png)
 
-<br>
 
-## Tecnologias
+## Technologies
 
 <p align="left">
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
@@ -33,37 +41,33 @@
   </a>
 </p>
 
+## Installation
 
-## Instalacion
 
-<br>
+To install Webpify globally on your system, run the following command:
 
-Para instalar Webpify de manera global en tu sistema, puedes usar el siguiente comando:
 
 ```
 npm i -g webpify-cli
 ```
 
-Esto instalará Webpify globalmente, lo que te permitirá usarlo desde cualquier directorio en la terminal con solo escribir:
+This will install Webpify globally, allowing you to use it from any terminal directory by simply typing:
+
 
 ```
 webpify
 ```
 
-Si prefieres no instalarlo globalmente, puedes usarlo directamente con npx:
+If you prefer not to install it globally, you can also run it using npx:
+
 
 ```
 npx webpify-cli
 ```
 
-<br>
+## Credits
 
-## Creditos
-
-<br>
 
 [Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR)
 
-Licencia MIT - Copyright (c) 2025
-
-<br>
+MIT License – © 2025
