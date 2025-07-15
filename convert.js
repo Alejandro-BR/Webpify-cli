@@ -65,7 +65,7 @@ export async function convertImagesInDirectory(directoryPath) {
     if (imageFiles.length === 0) {
       console.log(
         chalk.yellow(
-          "⚠️ No se encontraron imágenes PNG o JPG en el directorio."
+          "⚠️  No se encontraron imágenes PNG o JPG en el directorio."
         )
       );
       return;
