@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "description": "CLI tool to convert images to WebP",
   "bin": {
-    "webpify": "./index.js"
+    "webpify": "./src/index.js"
   },
   "scripts": {
     "start": "node index.js"
