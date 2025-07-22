@@ -1,6 +1,6 @@
 # Webpify
 
-**Webpify** is a terminal tool written in **Node.js** that converts your PNG, JPG, HEIC, and HEIF images to **WebP**, an optimized image format offering lossless compression—ideal for the web.
+**Webpify** is a terminal tool written in **Node.js** that converts your PNG, JPG, HEIC, and HEIF images to **WebP**, an optimized image format offering lossless compression ideal for the web.
 
 Turn your photos into lighter, faster-loading images!
 
