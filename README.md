@@ -4,11 +4,6 @@
 
 Turn your photos into lighter, faster-loading images!
 
-> [!IMPORTANT]
-> 🚧 **Webpify is currently under active development.**
-> New features are on the way, and the tool may undergo significant changes in its structure, usage options, and overall behavior.  
->
-
 ![npm version](https://img.shields.io/npm/v/webpify-cli)
 ![license](https://img.shields.io/npm/l/webpify-cli)
 ![downloads](https://img.shields.io/npm/dt/webpify-cli)
