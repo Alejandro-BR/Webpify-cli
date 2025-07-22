@@ -162,7 +162,7 @@ WebP reduces image size by up to 70% without noticeable quality loss, improving 
 
 ## 📚 Other Languages
 
-- [Español (Spanish)](https://github.com/Alejandro-BR/Webpify-cli/blob/main/doc/README-es.md)
+- [Español (Spanish)](https://github.com/Alejandro-BR/Webpify-cli/blob/main/doc/README.es.md)
 
 ## 🙌 Credits
 
