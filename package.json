@@ -2,7 +2,7 @@
   "type": "module",
   "name": "webpify-cli",
   "version": "2.0.2",
-  "description": "CLI tool to convert images to WebP",
+  "description": "CLI tool to convert PNG, JPG, HEIC and HEIF images to WebP while preserving visual quality.",
   "bin": {
     "webpify": "./src/index.js"
   },
@@ -22,7 +22,15 @@
     "webp",
     "convert",
     "cli",
-    "images"
+    "images",
+    "webp-converter",
+    "image-converter",
+    "image-optimization",
+    "png-to-webp",
+    "jpg-to-webp",
+    "heic-to-webp",
+    "sharp",
+    "nodejs"
   ],
   "author": "Alejandro-BR",
   "license": "MIT",
