@@ -1,12 +1,10 @@
-# Webpify - 2.0.0
+# Webpify
 
-**Webpify** es una herramienta de terminal escrita en **Node.js** que convierte tus imágenes PNG, JPG, HEIC y HEIF a formato **WebP**, un formato de imagen optimizado que ofrece compresión sin pérdida, ideal para la web.
+**Webpify** es una herramienta de terminal escrita en Node.js que convierte tus imágenes PNG, JPG, HEIC y HEIF a **WebP**, un formato moderno que reduce el tamaño del archivo preservando la calidad visual, ideal para el rendimiento web.
 
-¡Convierte tus fotos en imágenes más ligeras y que cargan más rápido!
-
-![npm version](https://img.shields.io/npm/v/webpify-cli)
-![license](https://img.shields.io/npm/l/webpify-cli)
-![downloads](https://img.shields.io/npm/dt/webpify-cli)
+[![npm version](https://img.shields.io/npm/v/webpify-cli)](https://www.npmjs.com/package/webpify-cli)
+[![npm downloads](https://img.shields.io/npm/dt/webpify-cli)](https://www.npmjs.com/package/webpify-cli)
+[![license](https://img.shields.io/npm/l/webpify-cli)](https://github.com/Alejandro-BR/Webpify-cli/blob/main/LICENCE)
 
 ## ⭐ Características
 
@@ -21,9 +19,17 @@
 - Experiencia de CLI mejorada: Comandos claros e intuitivos con flags como `--input`, `--output`, `--es`, `--auto`, etc.
 - **Optimización de imágenes** para mejorar el rendimiento de tus sitios web.
 
-## Vista Previa
+## 👁️ Vista Previa
 
 ![Home](./img/img.png)
+
+## 📷 Comparación visual
+
+Aquí tienes un ejemplo visual que muestra el impacto de Webpify utilizando la biblioteca [Sharp](https://github.com/lovell/sharp):
+
+<table> <tr> <th>Original (JPG)</th> <th>Convertido (WebP)</th> </tr> <tr> <td><img src="./img/demo.jpg" width="300" alt="Original JPG"></td> <td><img src="./img/demo.webp" width="300" alt="WebP version"></td> </tr> <tr> <td><b>Tamaño:</b> 465 KB</td> <td><b>Tamaño:</b> 200 KB</td> </tr> </table>
+
+WebP reduce el tamaño de las imágenes hasta en un 70 % sin pérdida apreciable de calidad, lo que mejora la velocidad de carga de tus proyectos web.
 
 ## 💻 Instalación
 
@@ -129,38 +135,29 @@ webpify
 | HEIC               | JPG (intermedio) → WebP |
 | HEIF               | JPG (intermedio) → WebP |
 
-### 📷 Comparación visual
-
-Aquí tienes un ejemplo visual que muestra el impacto de Webpify utilizando la biblioteca [Sharp](https://github.com/lovell/sharp):
-
-<table> <tr> <th>Original (JPG)</th> <th>Convertido (WebP)</th> </tr> <tr> <td><img src="./img/demo.jpg" width="300" alt="Original JPG"></td> <td><img src="./img/demo.webp" width="300" alt="WebP version"></td> </tr> <tr> <td><b>Tamaño:</b> 465 KB</td> <td><b>Tamaño:</b> 200 KB</td> </tr> </table>
-
-WebP reduce el tamaño de las imágenes hasta en un 70 % sin pérdida apreciable de calidad, lo que mejora la velocidad de carga de tus proyectos web.
-
 ## 🐳 Docker
 
 Webpify también está disponible como imagen Docker para flujos de trabajo automatizados y pipelines CI/CD.
+
+![Docker Version](https://img.shields.io/docker/v/alejandrobr/webpify/latest)
+![Docker Pulls](https://img.shields.io/docker/pulls/alejandrobr/webpify)
+![Docker Stars](https://img.shields.io/docker/stars/alejandrobr/webpify)
 
 ```bash
 docker pull alejandrobr/webpify:latest
 ```
 
+> [!NOTE]
 > El modo interactivo no está disponible en Docker. Usa `--auto` o `--input` en su lugar.
 
 - [Docker Hub](https://hub.docker.com/r/alejandrobr/webpify)
 - [GitHub - Webpify Docker](https://github.com/Alejandro-BR/Webpify-docker)
 
-## 🚀 Novedades en la Versión 2.0.0
+## 📚 Otros Idiomas
+- [English](https://github.com/Alejandro-BR/Webpify-cli/blob/main/README.md)
 
-- Arquitectura mejorada.
-- Soporte para múltiples idiomas (inglés y español).
-- Nuevo modo automático con el flag `--auto`.
-- CLI mejorada con nuevos flags: `--input`, `--output`, `--es`, `--about`.
-- Comandos útiles: versión (`--version` / `-V`) y ayuda (`--help` / `-h`).
-- Mejor experiencia de usuario con modos interactivo y no interactivo.
-
-## 🙌 Créditos
+## 🙌 Autor
 
 [Alejandro Barrionuevo Rosado](https://github.com/Alejandro-BR)
 
-Licencia MIT – © 2025
+Licencia MIT – © 2025-2026
