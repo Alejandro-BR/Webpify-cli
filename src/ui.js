@@ -3,6 +3,7 @@ import { t } from "./i18n.js";
 
 const githubUrl = "https://github.com/Alejandro-BR/Webpify-cli";
 const npmUrl = "https://www.npmjs.com/package/webpify-cli";
+const dockerUrl = "https://hub.docker.com/r/alejandrobr/webpify";
 
 export function displayWelcomeMessage() {
   console.log(chalk.blue.bold(t("welcome")));
@@ -19,6 +20,7 @@ export function printAbout(version) {
   console.log(chalk.green("😄 " + (t("uiAuthor") || "Author: ")) + "Alejandro Barrionuevo Rosado");
   console.log(chalk.green("🌐 GitHub: ") + githubUrl);
   console.log(chalk.green("📦 NPM: ") + npmUrl);
+  console.log(chalk.green("🐳 Docker: ") + dockerUrl);
   console.log(chalk.green("🗓️  Version: ") + version);
   console.log(chalk.green(`📄 ${t("license")}`) + "MIT");
   console.log("\n");
