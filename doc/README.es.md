@@ -137,6 +137,19 @@ Aquí tienes un ejemplo visual que muestra el impacto de Webpify utilizando la b
 
 WebP reduce el tamaño de las imágenes hasta en un 70 % sin pérdida apreciable de calidad, lo que mejora la velocidad de carga de tus proyectos web.
 
+## 🐳 Docker
+
+Webpify también está disponible como imagen Docker para flujos de trabajo automatizados y pipelines CI/CD.
+
+```bash
+docker pull alejandrobr/webpify:latest
+```
+
+> El modo interactivo no está disponible en Docker. Usa `--auto` o `--input` en su lugar.
+
+- [Docker Hub](https://hub.docker.com/r/alejandrobr/webpify)
+- [GitHub - Webpify Docker](https://github.com/Alejandro-BR/Webpify-docker)
+
 ## 🚀 Novedades en la Versión 2.0.0
 
 - Arquitectura mejorada.

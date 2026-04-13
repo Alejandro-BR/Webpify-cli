@@ -160,6 +160,19 @@ WebP reduces image size by up to 70% without noticeable quality loss, improving 
 - Added user-friendly version (--version / -V) and help (--help / -h) commands.
 - Improved user experience with interactive and non-interactive modes.
 
+## 🐳 Docker
+
+Webpify is also available as a Docker image for automated workflows and CI/CD pipelines.
+
+```bash
+docker pull alejandrobr/webpify:latest
+```
+
+> Interactive mode is not supported in Docker. Use `--auto` or `--input` instead.
+
+- [Docker Hub](https://hub.docker.com/r/alejandrobr/webpify)
+- [GitHub - Webpify Docker](https://github.com/Alejandro-BR/Webpify-docker)
+
 ## 📚 Other Languages
 
 - [Español (Spanish)](https://github.com/Alejandro-BR/Webpify-cli/blob/main/doc/README.es.md)
